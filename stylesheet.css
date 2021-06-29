@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: grey;
+}
+
+.link a:hover {
+    color: grey;
+}
+
+.active {
+    color: blue;
+}
+
+#content {
+    padding-top: 150px;
+}
+
+header {
+    margin: 30px 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header .title {
+    font-size: 30px;
+    font-weight: bold;
+    float: left; 
+}
+
+header #right {
+    padding-top: 10px;
+    float: right;
+}
+
+header .subtitle {
+    margin: 8px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    background-color: #f0f0f0;
+    text-align: center; 
+    text-decoration: underline;   
+    position: fixed;
+    padding: 30px;
+    margin-left: -30px;
+}
